@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Selenium">
+
+	<test name="Regression">
+
+		<!-- <groups> <run> <include name="Smoke Testing"></include> <include name="Regression 
+			Testing"></include> </run> </groups> -->
+
+		<classes>
+			<!-- <class name="basicCoding.AnnotationTest"></class> -->
+			<!-- <class name="othersCoding.PriorityTest"></class> -->
+
+			<!-- <class name="othersCoding.AnnotationTest"></class> -->
+			
+		<class name="othersCoding.LoginToGmail"></class>
+
+		</classes>
+
+	</test>
+
+</suite> 
+

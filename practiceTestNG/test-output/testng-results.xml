@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[-- @BeforeSuite -- Connection to the DB or download the input file from server, Established a connecion to the server]]>
+    </line>
+    <line>
+      <![CDATA[--@BeforeTest --This method gets executed before each and every test block in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[--@BeforeClass --This method gets executed before each and every class in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- @BeforeMethod -- This gets executed before each and every test method in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- testCase1 -- This is executable block of code]]>
+    </line>
+    <line>
+      <![CDATA[-- @AfterMethod -- This gets executed after each and every test method in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- @BeforeMethod -- This gets executed before each and every test method in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- testCase2 -- This is second test case]]>
+    </line>
+    <line>
+      <![CDATA[-- @AfterMethod -- This gets executed after each and every test method in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- @AfterClass -- This method gets executed after each and every class in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- @AfterTest -- This method gets executed after each and every test block in testng.xml file]]>
+    </line>
+    <line>
+      <![CDATA[-- @AfterSuite -- Send reports after the execution of the framework to the steackholders]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-12-20T13:15:48 EST" name="Selenium" finished-at="2021-12-20T13:15:48 EST" duration-ms="26">
+    <groups>
+    </groups>
+    <test started-at="2021-12-20T13:15:48 EST" name="Regression" finished-at="2021-12-20T13:15:48 EST" duration-ms="26">
+      <class name="othersCoding.AnnotationTest">
+        <test-method is-config="true" signature="beforeSuiteMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="beforeSuiteMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="5" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @BeforeSuite -- Connection to the DB or download the input file from server, Established a connecion to the server]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeSuiteMethod -->
+        <test-method is-config="true" signature="beforeTestMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="beforeTestMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--@BeforeTest --This method gets executed before each and every test block in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method is-config="true" signature="beforeClassMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="beforeClassMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[--@BeforeClass --This method gets executed before each and every class in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeClassMethod -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="preCondition" finished-at="2021-12-20T13:15:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @BeforeMethod -- This gets executed before each and every test method in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testCase1()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="testCase1" finished-at="2021-12-20T13:15:48 EST" duration-ms="3" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- testCase1 -- This is executable block of code]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase1 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="postCondition" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @AfterMethod -- This gets executed after each and every test method in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="preCondition()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="preCondition" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @BeforeMethod -- This gets executed before each and every test method in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- preCondition -->
+        <test-method signature="testCase2()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="testCase2" finished-at="2021-12-20T13:15:48 EST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- testCase2 -- This is second test case]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testCase2 -->
+        <test-method is-config="true" signature="postCondition()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="postCondition" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @AfterMethod -- This gets executed after each and every test method in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- postCondition -->
+        <test-method is-config="true" signature="afterClassMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="afterClassMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @AfterClass -- This method gets executed after each and every class in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterClassMethod -->
+        <test-method is-config="true" signature="afterTestMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="afterTestMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @AfterTest -- This method gets executed after each and every test block in testng.xml file]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterTestMethod -->
+        <test-method is-config="true" signature="afterSuiteMethod()[pri:0, instance:othersCoding.AnnotationTest@11bd0f3b]" started-at="2021-12-20T13:15:48 EST" name="afterSuiteMethod" finished-at="2021-12-20T13:15:48 EST" duration-ms="0" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[-- @AfterSuite -- Send reports after the execution of the framework to the steackholders]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- afterSuiteMethod -->
+      </class> <!-- othersCoding.AnnotationTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Selenium -->
+</testng-results>
