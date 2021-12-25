@@ -11,7 +11,7 @@ public class PriorityTest {
   
   @Test(dependsOnMethods= "createUser")
   public void updateUser() {
-	  System.out.println("user updated successfully");
+	  System.out.println("user updated successfully----==============================");
   }
   
   @Test(dependsOnMethods = "updateUser")
