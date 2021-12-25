@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 public class PriorityTest {
   @Test 
   public void createUser() {
-	  System.out.println("user created successfully");
+	  System.out.println("user created successfully -============================");
 	  
   }
   
